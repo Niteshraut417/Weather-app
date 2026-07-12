@@ -1,4 +1,5 @@
 const apiKey = "YOUR_API_KEY"; // Get this from OpenWeatherMap
+
 document.getElementById('searchBtn').addEventListener('click', async () => {
     const city = document.getElementById('cityInput').value;
     const display = document.getElementById('weatherDisplay');
