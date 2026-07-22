@@ -4,6 +4,7 @@ async function getWeather(city) {
         if (!response.ok) throw new Error("City not found");
         const data = await response.json();
         updateUI(data);
+
     } catch (error) {
         showError(error.message);
     }
